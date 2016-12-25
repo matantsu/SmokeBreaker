@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "183310076492",
+    "firebase_url": "https://smoke-breaker-db78e.firebaseio.com",
+    "project_id": "smoke-breaker-db78e",
+    "storage_bucket": "smoke-breaker-db78e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183310076492:android:1ced0ac98022c84c",
+        "android_client_info": {
+          "package_name": "com.smokebreaker.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183310076492-j86o3prc7h43932nnoc50v30bn6vro03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smokebreaker.www",
+            "certificate_hash": "DE65381B502B4E2E03DB452EE53AB9E863BAEDBC"
+          }
+        },
+        {
+          "client_id": "183310076492-1krpggk0i2p922ge4erc6d719ha33p5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhV13b2TUMzQTUIJK4EWg9iD8JBLH0vzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183310076492-1krpggk0i2p922ge4erc6d719ha33p5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

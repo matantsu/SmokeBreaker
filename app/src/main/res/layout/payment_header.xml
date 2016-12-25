@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:rotation="57"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        app:iiv_color="@color/colorPrimaryDark"
+        app:iiv_icon="gmd-favorite"
+        android:id="@+id/view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="{gmd-favorite} Get the PRO version"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:padding="16dp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you feel that this app is worth it, choose an option to purchase so that we can create more awesome features and help others quit !"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:layout_margin="8dp"
+            android:gravity="center_horizontal" />
+
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="{gmd-done} No Ads !"
+            android:textColor="#fff"
+            android:padding="8dp" />
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="{gmd-done} More Achievements !"
+            android:textColor="#fff"
+            android:padding="8dp" />
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="{gmd-done} Get and share tips !"
+            android:textColor="#fff"
+            android:padding="8dp" />
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="{gmd-done} More detailed statistics !"
+            android:textColor="#fff"
+            android:padding="8dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="statistic_header" type="id">1</item>
+    <item name="statistic_item" type="id">0</item>
+    <item name="statistic_footer" type="id">2</item>
+    <item name="payment_header" type="id">71462</item>
+    <item name="payment_item" type="id">13759</item>
+</resources>

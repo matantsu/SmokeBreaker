@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>tips_interval</key>
+        <value>7200000</value>
+    </entry>
+    <entry>
+        <key>time_regained_from_avoiding_cigarette</key>
+        <value>11</value>
+    </entry>
+    <entry>
+        <key>smoke_break_duration</key>
+        <value>60000</value>
+    </entry>
+    <entry>
+        <key>number_of_days_to_average</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>interstitial_frequency</key>
+        <value>0.05</value>
+    </entry>
+    <entry>
+        <key>in_app_products</key>
+        <value>{"products": ["for_life_cheap"], subscriptions: ["1_month_cheap","6_month_cheap"]}</value>
+    </entry>
+</defaultsMap>

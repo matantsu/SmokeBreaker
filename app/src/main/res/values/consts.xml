@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="admob_app_id">ca-app-pub-5553347602815050~5324567125</string>
+    <string name="admob_interstitial_ad_unit_id">ca-app-pub-5553347602815050/6801300329</string>
+    <string name="admob_banner_ad_unit_id">ca-app-pub-5553347602815050/9335964325</string>
+    <string name="licence_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg7i8owaIa0Bgee9PMOxoT2A0zVGWBtNSylzvBSR38r5V3IzLwb3d8m3xy9m+rw0s+zcfK2cpjFdeLkNO+cAugCJjNRw+8uQ2KNFllUlr17vs25vaMgGFEuDAEn5d91CaFjo5RCurEiS46xIYTNrBwA+o9hdMqj0imaM1MJCo+tUeN0wcycawZmV3Bfzzgt4E1cSakllBC4GOlxA12xeo0+tn8Dx8JAqK7uDshHK4CRdZAihcm0szW3b84UrjdaAEa9UdijbCUPka9r3ZeNdmBPcRCJlX5DKwiDdU6TA+HhP08cfkC6vfGPT451BZbMX5nZZ7j4vB+W1EyvyXt5PxIQIDAQAB</string>
+</resources>

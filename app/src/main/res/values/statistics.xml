@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="statistic_status_health_1">Your health improved slightly</string>
+    <string name="statistic_status_health_2">Your health is slowly recovering</string>
+    <string name="statistic_status_health_3">Oxygen levels are getting back to normal</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="last_seven_days_query" translatable="false">
+        SELECT
+            *,
+            COUNT(*) AS smokeCount,
+            MIN(timestamp) AS firstCigaretteTimestamp,
+            MAX(timestamp) AS lastCigaretteTimestamp
+        FROM smokes
+        GROUP BY date
+        ORDER BY date DESC</string>
+</resources>

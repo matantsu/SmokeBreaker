@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5C946E</color>
+    <color name="colorPrimaryLight">#e9f2eb</color>
+    <color name="colorPrimaryDark">#548664</color>
+    <color name="colorAccent">#4db6ac</color>
+    <color name="colorAccentLight">#60e6d8</color>
+
+    <color name="onBoardingSlideColor1">@color/colorAccent</color>
+    <color name="onBoardingSlideColor2">#635380</color>
+    <color name="onBoardingSlideColor3">#F9564F</color>
+    <color name="onBoardingSlideColor4">#476A6F</color>
+    <color name="onBoardingSlideColor5">#DB7C26</color>
+    <color name="onBoardingSlideColor6">@color/colorPrimary</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

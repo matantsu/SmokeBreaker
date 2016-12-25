@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Smoke Breaker</string>
+    <string name="sign_in_fail">Sign in failed, please try again later.</string>
+    <string name="chat_input_hint">Type Something …</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_tip_dialog_title">Add a tip !</string>
+    <string name="delete_tip_dialog_title">Delete this tip ?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="tip_number_of_votes">%d votes</string>
+    <string name="tip_notification_title">Pro tip from %s</string>
+
+    <string name="money">%1$.2f %2$s</string>
+    <string name="minutes">~ %d mins</string>
+    <string name="hours">~ %d hours</string>
+    <string name="days">~ %d days</string>
+    <string name="cigarettes">%d</string>
+    <string name="tap_for_more">tap for more</string>
+    <string name="break_index_indicator">Break %1$d of %2$d</string>
+    <string name="non_positive_number_error">Please enter a positive number</string>
+    <string name="achievement_unlocked">%s unlocked !</string>
+    <string name="smoke_break_notification_title">Smoke Break !</string>
+    <string name="smoke_break_notification_text">The time for a smoke break has come. press `smoke` or dismiss to skip this break.</string>
+    <string name="smoke">Smoke</string>
+    <string name="cigarettes_smoked_today">%d cigarettes smoked today</string>
+    <string name="invitation_message">Hi! Check out this app, It\'s called Smoke Breaker and it helps me quit smoking.</string>
+    <string name="invitation_title">Invite family and friends</string>
+    <string name="invitation_deep_link">https://w3ju6.app.goo.gl/naxz</string>
+    <string name="invitation_cta">It\'s FREE</string>
+    <string name="support_email">matantsuberi@gmail.com</string>
+    <string name="share_email_subject">Smoke Breaker Feedback !</string>
+    <string name="send_feedback">Send feedback</string>
+    <string name="invited_dialog_title">Invited by:</string>
+    <string name="receding_notification_title">About to regress !</string>
+    <string name="crossing_initial_notification_title">Warning !</string>
+    <string name="crossing_initial_notification_text">You are one smoke away from surpassing your initial number of cigarettes per day !</string>
+    <string name="achievement_time_regained_15_mins_title">Getting better all the time</string>
+    <string name="achievement_time_regained_15_mins_desc">15 mins of life regained</string>
+    <string name="achievement_time_regained_30_mins_title">Fixing a hole</string>
+    <string name="achievement_time_regained_30_mins_desc">Half hour of life regained</string>
+    <string name="achievement_time_regained_1_hour_title">Better than an apple a day</string>
+    <string name="achievement_time_regained_1_hour_desc">A whole hour regained !</string>
+    <string name="achievement_time_regained_1_day_title">WOW</string>
+    <string name="achievement_time_regained_1_day_desc">Regained an entire day !</string>
+    <string name="achievement_save_100_title">That\'s a lot of money</string>
+    <string name="achievement_save_100_desc">100%s Saved !</string>
+    <string name="achievement_cigarettes_avoided_100_title">Awesome !</string>
+    <string name="achievement_cigarettes_avoided_100_desc">100 cigarettes avoided !</string>
+    <string name="crossing_cigarretes_per_day_notification_text">Tou are one smoke away from surpassing your current cigarettes per day</string>
+    <string name="purchase_button_text">{gmd-favorite} PURCHASE (%s)</string>
+    <string name="share_progress_text">
+        #SmokeBreaker\n
+        I Saved: %1$.2f %2$s,\n
+        Gained %3$s of my life back\n
+        And avoided %4$d cigarettes.\n
+        https://w3ju6.app.goo.gl/naxz
+    </string>
+    <string name="quit_days">%d days smoke free !</string>
+    <string name="quit_minutes">%s minutes smoke free</string>
+    <string name="quit_hours">%d hours smoke free !</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="title_activity_smoking">SmokingActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dismiss">DISMISS</string>
+</resources>

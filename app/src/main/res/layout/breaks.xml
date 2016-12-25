@@ -1,0 +1,152 @@
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smokebreaker.www.pl.breaks.BreaksFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:animateLayoutChanges="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number of breaks per day"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:id="@+id/breaksPerDay"
+                    android:text="32"
+                    android:gravity="center_horizontal"
+                    android:selectAllOnFocus="true"/>
+
+                <com.mikepenz.iconics.view.IconicsTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="{gmd-autorenew} automatically chosen"
+                    android:textSize="12sp"
+                    android:id="@+id/autoBreaks" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/linearLayout2">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:animateLayoutChanges="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="First cigarette time"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="07:32"
+                        android:layout_margin="8dp"
+                        android:id="@+id/firstCigaretteTime" />
+
+                    <com.mikepenz.iconics.view.IconicsTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{gmd-autorenew} automatically chosen"
+                        android:textSize="12sp"
+                        android:id="@+id/autoFirstCigarette" />
+                    <com.mikepenz.iconics.view.IconicsCompatButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{gmd-mode-edit} Change"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:id="@+id/firstCigaretteTimeButton" />
+                </LinearLayout>
+                <com.mikepenz.iconics.view.IconicsTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="{gmd-compare-arrows}"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:clickable="true"
+                    android:id="@+id/switchTimesButton" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:animateLayoutChanges="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Last cigarette time"
+                        android:id="@+id/textView8"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="21:54"
+                        android:id="@+id/lastCigaretteTime"
+                        android:layout_margin="8dp" />
+
+                    <com.mikepenz.iconics.view.IconicsTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{gmd-autorenew} automatically chosen"
+                        android:textSize="12sp"
+                        android:id="@+id/autoLastCigarette" />
+                    <com.mikepenz.iconics.view.IconicsCompatButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="{gmd-mode-edit} Change"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:id="@+id/lastCigaretteTimeButton" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use learned values"
+                android:id="@+id/resetButton"
+                android:enabled="false"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="right" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

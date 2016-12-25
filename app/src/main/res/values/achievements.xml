@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="achievement_first_log_title">First Log</string>
+    <string name="achievement_first_log_desc">Tap the smoke button to log your first cigarette smoke !</string>
+    <string name="achievement_save_1_title">My money back</string>
+    <string name="achievement_save_1_desc">1%s Saved !</string>
+    <string name="achievement_save_4_title">Money maker</string>
+    <string name="achievement_save_4_desc">4%s Saved !</string>
+    <string name="achievement_save_10_title">Don\'t spend it all in one place</string>
+    <string name="achievement_save_10_desc">10%s Saved !</string>
+    <string name="achievement_cigarettes_avoided_1_title">Small Beginnings</string>
+    <string name="achievement_cigarettes_avoided_1_desc">1 cigarette avoided</string>
+    <string name="achievement_cigarettes_avoided_3_title">Walking the path</string>
+    <string name="achievement_cigarettes_avoided_3_desc">3 cigarettes avoided</string>
+    <string name="achievement_cigarettes_avoided_10_title">Getting Stronger</string>
+    <string name="achievement_cigarettes_avoided_10_desc">10 cigarettes avoided !</string>
+    <string name="achievement_cigarettes_avoided_30_title">Like a boss</string>
+    <string name="achievement_cigarettes_avoided_30_desc">30 cigarettes avoided !</string>
+</resources>
